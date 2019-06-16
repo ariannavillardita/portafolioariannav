@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,600&display=swap');
+
+body,td,th 
+{font-family:'Oswald', sans-serif;}
+
+p{ font-family: 'Oswald', sans-serif;}
+
+header{
+	background-color:#FFFFFF;
+}
+
+.logo{
+	color: #CC4BA1;
+}
+#hi{
+	background-image: url( "../img/flor.jpg");
+		background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+color: #fff;
+}
+.btn-dark{
+	margin-left: 517px; 
+}
+#slides{
+	margin-top: 15px;
+}
+#slides h1{
+	color: #CC4BA1;
+}
+#aboutme{
+	background-image: url("../img/fondito.jpg");
+		background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+color: #FFFFFF;
+	padding-top: 20px;
+	font-weight: 300;
+	text-align: right;
+
+}
+#aboutme h3{
+	padding-top: 120px;
+
+}
+.title{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#contact{
+	background-image: url("../img/fondito.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+color: #FFFFFF;
+}
+#content{
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+footer{
+	margin-top: 20px;
+	background-color: #CC4BA1;
+	padding: 18px 0;
+	color: #FFFFFF;
+}
